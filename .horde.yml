@@ -18,16 +18,22 @@ license:
 authors:
   -
     name: Ralf Lang
-    user: ralf.lang
+    user: rlang
     email: ralf.lang@ralf-lang.de
-    role: lead
+    role: maintainer
+    active: true
+  -
+    name: Torben Dannhauer
+    user: tdannhauer
+    email: torben@dannhauer.de
+    role: maintainer
     active: true
 dependencies:
   required:
     php: ^8.1
     ext:
-      - json
-      - mbstring
+      - hash
+      - openssl
 keywords:
   - rfc7519
   - claims
@@ -35,4 +41,4 @@ keywords:
 vendor: horde
 quality:
   phpstan:
-    level: 1
+    level: 5
