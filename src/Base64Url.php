@@ -3,6 +3,13 @@
 declare(strict_types=1);
 
 /**
+ * Base64url encoding and decoding (RFC 4648 section 5).
+ *
+ * This is a general-purpose encoding utility, not JWT-specific. It lives in
+ * horde/jwt rather than horde/util so that horde/jwt stays dependency-free.
+ * Other Horde packages (Core, Oauth, Secret) should use this class instead
+ * of duplicating the logic in private methods.
+ *
  * Copyright 2026 The Horde Project (http://www.horde.org/)
  *
  * See the enclosed file LICENSE for license information (LGPL). If you
