@@ -7,10 +7,10 @@ description: []
 list: horde
 homepage: http://www.horde.org/libraries/Horde_Jwt
 version:
-  release: 1.0.0-beta2
+  release: 1.0.0
   api: 1.0.0
 state:
-  release: beta
+  release:
   api: alpha
 license:
   identifier: LGPL-2.1
